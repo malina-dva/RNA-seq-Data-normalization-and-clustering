@@ -1,0 +1,9 @@
+	condition
+E14.5_R1	E14.5
+E14.5_R2	E14.5
+Neonatal_R1	Neonatal
+Neonatal_R2	Neonatal
+Adult_R1	Adult
+Adult_R2	Adult
+TAC_R1	TAC
+TAC_R2	TAC
