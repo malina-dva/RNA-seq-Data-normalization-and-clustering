@@ -462,7 +462,7 @@ Now we have everything to plot a dendrogram.
 plot(clusters)
 ```
 
-![](PCA_plot_dendro_files/figure-html/unnamed-chunk-22-1.png)<!-- -->
+![](https://github.com/malina-dva/RNA-seq-Data-normalization-and-clustering/blob/master/unnamed-chunk-22-1.png)<!-- -->
 
 The replicates cluster together within their respective condition. Great!
 
@@ -478,7 +478,7 @@ plotPCA function (again part of the DESeq2 package) calculates and plots PCA for
 plotPCA(vsd, intgroup=c("condition")) 
 ```
 
-![](PCA_plot_dendro_files/figure-html/unnamed-chunk-23-1.png)<!-- -->
+![](https://github.com/malina-dva/RNA-seq-Data-normalization-and-clustering/blob/master/unnamed-chunk-23-1.png)<!-- -->
 
 Notice that in the legend, the conditions are ordered alphabetically, but we don't want that.
 We want them to be organized by increasing developmental stage.
@@ -512,7 +512,7 @@ plotPCA(vsd, intgroup=c("condition")) +
   scale_colour_hue(breaks = c("E14.5","E14.5","Neonatal","Neonatal","Adult","Adult","TAC","TAC"))
 ```
 
-![](PCA_plot_dendro_files/figure-html/unnamed-chunk-25-1.png)<!-- -->
+![](https://github.com/malina-dva/RNA-seq-Data-normalization-and-clustering/blob/master/unnamed-chunk-25-1.png)<!-- -->
 
 Again the replicates cluster together in their respective condition and the trajectory of PC1 follows the trajectory of CMs development.
 
