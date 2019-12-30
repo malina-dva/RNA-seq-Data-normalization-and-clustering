@@ -219,8 +219,9 @@ The metadata is another text file called meta_data.txt.
 Again download this file from github and place it in your working directory. 
 
 
-To do so go to 
-// https://github.com/malina-dva/RNA-seq-Data-normalization-and-clustering
+To do so go to:
+
+https://github.com/malina-dva/RNA-seq-Data-normalization-and-clustering
 
 Click on meta_data.txt file
 
