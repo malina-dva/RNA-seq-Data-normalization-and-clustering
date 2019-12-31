@@ -53,7 +53,7 @@ require("DESeq2")
 
 You can also use an alternative command below to load the package, once installed:
 
-library("DESEq2")
+library("DESeq2")
 
 ### 2. Setting working directory
 
@@ -157,7 +157,7 @@ dim(just.raw.counts)
 ## [1] 27195     9
 ```
 
-There are 27195 genes (rows) and9 columns. The first column (e.g. Probe) holds the names of the genes, the remaining 8 columns hold the gene counts (gene expression info) for the replicates of the four conditions we have. 
+There are 27195 genes (rows) and 9 columns. The first column (e.g. Probe) holds the names of the genes, the remaining 8 columns hold the gene counts (gene expression info) for the replicates of the four conditions we have. 
 We want to actually specify that the column named 'Probe' has the information for the names of each row in the table. 
 
 We can do that when we read the input file by specifying row.names =1, meaning that names of the rows are to be found in the first column.
@@ -273,7 +273,9 @@ count.data.set <- DESeqDataSetFromMatrix(countData=just.raw.counts,
 ```
 
 'countData' argument requires the table with the counts and the names of the genes
+
 'colData' argument requires the metadata file
+
 'design' requires the column of the metadata that holds the information for the relationships between replicates and conditions (e.g the 'condition' column from the metadata in our case)
 
 
