@@ -1,7 +1,7 @@
 
 ## Data quality assessment by sample clustering and visualization 
 
-** For the first three steps of the tutorial, especially if you a newbie to R and RNA-seq data analyses, I recommend that you follow the YouTube Video in the link below, which I specifically created to demonstrate the installation of packages, setting working directory and downloading the input data set for this tutorial. **
+** For the first three steps of the tutorial (especially if you a newbie to R and RNA-seq data analyses), I recommend that you follow the YouTube Video in the link below, which was specifically created to demonstrate the installation of packages, setting working directory and downloading the input data set for this tutorial. **
 
 https://www.youtube.com/watch?v=a2FycE0QVOQ
 
