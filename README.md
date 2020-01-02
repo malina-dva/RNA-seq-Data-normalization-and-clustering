@@ -1,6 +1,10 @@
 
 ## Data quality assessment by sample clustering and visualization 
 
+** YouTube Video with the firts three steps of the tutorial **
+
+https://www.youtube.com/watch?v=a2FycE0QVOQ
+
 Most of the code used in this tutorial is available online:
 
 https://bioconductor.org/packages/release/workflows/vignettes/rnaseqGene/inst/doc/rnaseqGene.html#the-variance-stabilizing-transformation-and-the-rlog
