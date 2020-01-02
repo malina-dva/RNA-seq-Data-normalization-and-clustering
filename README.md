@@ -14,12 +14,12 @@ I have obviously simplified everything a lot!
 ### 1. Installing and loading the DESeq2 package
 
 First you need to load the package DESeq2, which is the **MAIN** package that will be used in this tutorial.
-if you have never used DESeq2, you will have to install and load it beforehand.
-The commands for installation and loading you can find here:
+if you have never used DESeq2, you will have to install it beforehand.
+The commands for installation you can find here:
 
 https://bioconductor.org/packages/release/bioc/html/DESeq2.html
 
-By the way this is how you can install any package if you have R version >=3.6
+By the way this is how you can install not only DESeq2, but any package if you have R version >=3.6. Logically, you will have to replace DESeq2 with the name of the package you want to install. 
 
 Alternatively you can install DESEq2 by typing: 
 
@@ -27,7 +27,7 @@ install.packages("DESeq2", dependencies = TRUE)
 
 Regardless of the way you decide to install DESeq2, it will take some time for all the dependences and DESeq2 itself to be installed. So be patient. 
 
-To just load/re-load the package if you have it already installed use the line below. 
+To load the package, so that you can make the functions in the package accessible, use the line below. 
 
 
 
