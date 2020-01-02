@@ -531,7 +531,7 @@ Considering the current analyses we can conclude the following:
 
 **1. There are no obvious batch effects and the data seems to be of a high quality**
 
-**2. Having performed this analyses we can proceed to identifying differentially expressed genes**
+**2. Having performed these analyses we can proceed to identifying differentially expressed genes**
 
 
 
