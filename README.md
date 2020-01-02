@@ -1,7 +1,7 @@
 
 ## Data quality assessment by sample clustering and visualization 
 
-** YouTube Video with the firts three steps of the tutorial **
+** YouTube Video demonstrating the firts three steps of the tutorial in RStudio **
 
 https://www.youtube.com/watch?v=a2FycE0QVOQ
 
