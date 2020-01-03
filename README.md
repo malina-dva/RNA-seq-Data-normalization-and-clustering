@@ -5,6 +5,8 @@
 
 https://www.youtube.com/watch?v=kR_iHVau8GI&feature=youtu.be
 
+Thorough description of the input data set you can find in step 3 in this tutorial.
+
 Most of the code used in this tutorial is available online:
 
 https://bioconductor.org/packages/release/workflows/vignettes/rnaseqGene/inst/doc/rnaseqGene.html#the-variance-stabilizing-transformation-and-the-rlog
