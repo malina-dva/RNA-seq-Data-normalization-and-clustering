@@ -99,7 +99,7 @@ https://www.nature.com/articles/ncomms12418
 
 DNA hydroxymethylation controls cardiomyocyte gene expression in development and hypertrophy. 
 
-The data is from cardiac myocytes (CMs) nuclei isolated from mice - embryonic day 14,5, neonatal, adult and TAC (transverse aortic constriction). The first three conditions represent developmental stages and the last condition is hypertrophic (disease) state.
+The data is from cardiac myocytes (CMs) cells isolated from mice - embryonic day 14,5, neonatal, adult and TAC (transverse aortic constriction). The first three conditions represent developmental stages and the last condition is a hypertrophic (disease) state.
 
 **Each of the four conditions has two biological replicates.**
 
