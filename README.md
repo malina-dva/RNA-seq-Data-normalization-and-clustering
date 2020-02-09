@@ -5,8 +5,6 @@
 
 [![Getting started with RNA-seq](http://img.youtube.com/vi/kR_iHVau8GI/0.jpg)](https://www.youtube.com/watch?v=kR_iHVau8GI "Getting started with RNA-seq" )
 
-[![Audi R8](http://img.youtube.com/vi/KOxbO0EI4MA/0.jpg)](https://www.youtube.com/watch?v=KOxbO0EI4MA "Audi R8")
-
 You can find a thorough description of the input data set in step 3 in this tutorial.
 
 Most of the code used here is available online:
