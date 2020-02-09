@@ -3,7 +3,7 @@
 
 **For the first three steps of the tutorial (especially if you a newbie to R and RNA-seq data analyses), I recommend that you follow the YouTube Video in the link below, which was specifically created to demonstrate the installation of packages, setting working directory and downloading the input data set for this tutorial.**
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/https://www.youtube.com/watch?v=kR_iHVau8GI&feature=youtu.be/0.jpg)](https://www.youtube.com/watch?v=https://www.youtube.com/watch?v=kR_iHVau8GI&feature=youtu.be)
+[![Getting started with RNA-seq](http://img.youtube.com/vi/kR_iHVau8GI/0.jpg)](https://www.youtube.com/watch?v=https://www.youtube.com/watch?v=kR_iHVau8GI&feature=youtu.be)
 
 https://www.youtube.com/watch?v=kR_iHVau8GI&feature=youtu.be
 
