@@ -1,13 +1,13 @@
 
 ## Data quality assessment by sample clustering and visualization 
 
-** For the first three steps of the tutorial (especially if you a newbie to R and RNA-seq data analyses), I recommend that you follow the YouTube Video in the link below, which was specifically created to demonstrate the installation of packages, setting working directory and downloading the input data set for this tutorial. **
+**For the first three steps of the tutorial (especially if you a newbie to R and RNA-seq data analyses), I recommend that you follow the YouTube Video in the link below, which was specifically created to demonstrate the installation of packages, setting working directory and downloading the input data set for this tutorial.**
 
 https://www.youtube.com/watch?v=kR_iHVau8GI&feature=youtu.be
 
-Thorough description of the input data set you can find in step 3 in this tutorial.
+You can find a thorough description of the input data set in step 3 in this tutorial.
 
-Most of the code used in this tutorial is available online:
+Most of the code used here is available online:
 
 https://bioconductor.org/packages/release/workflows/vignettes/rnaseqGene/inst/doc/rnaseqGene.html#the-variance-stabilizing-transformation-and-the-rlog
 
@@ -32,10 +32,11 @@ Regardless of the way you decide to install DESeq2, it will take some time for a
 To load the package, so that you can make the functions in the package accessible, use the line below. 
 
 
-
 ```r
 require("DESeq2")
 ```
+
+**Lines starting with ## are an output of the code you ran earlier. No need to type or execute them**
 
 ```
 ## Loading required package: DESeq2
@@ -72,7 +73,7 @@ To set working directory in R studio, you use the function
 
 setwd("")
 
-You have to place the location of your working directory (folder) Within the double quotes of this function.
+You have to place the location of your working directory (folder) within the double quotes of this function.
 
 Let's create a new **folder** (working directory) on your desktop and call it 
 
@@ -82,6 +83,7 @@ To retrieve the full path to the location of the newly created folder, simply co
 This is what I get when I do this:
 "file:///C:/Users/Malina/Desktop/Tutorial_RNA_seq"
 You will have to change the forward slashes to backward double slashes and you will have to remove everything before C: in order R to be able to use the path.
+**NO NEED to change the type of slashes if you are using Linux and macOS machines.** 
 
 Place the full path within the double quotes in the command below. 
 
@@ -119,7 +121,7 @@ Right click and then click on "save page as" or "save as" to save the file, pref
 Once the file is saved on your Desktop move it to your working directory that we just created and set. (Tutorial_RNA_seq).
 
 
-It is a good idea to open the input file in excel and check its content before you start to work with it in R.           
+It is a good idea to open the input file in excel and check its content before you start to work with it in R. This is just for you to get an idea what type of format the data has. I don't recommend keeping the file open in excel while you are running the commands from the tutorial though.           
 Repeating again! The file with the raw counts has to be placed in your working directory.
 To read/load the input file in Rstudio use the command below.
 
@@ -325,7 +327,11 @@ We can use functions in R to calculate the degree of dissimilarity between repli
 based on the expression levels of the genes and then we can plot a tree of hierarchical clustering (dendrogram) between replicates.
 
 Before we plot the dendrogram, it is a good idea
-to normalize the data for sequencing depth and composition. 
+to normalize the data for 1. sequencing depth and 2. composition. 
+Why do we need to do that?
+1. Samples may have uneven amount of starting material. For example there may be samples that are difficult to obtain and the starting material for them would be much lower compared to the rest of the samples.
+Furthermore some of the samples may be left on the sequencing machine longer than others. These factors may introduce unwanted variability in the sequencing counts between the compared samples which is not due to biological but technical reasons. We want to normalize for that sort of technical variability.  
+2. If we are comparing samples from different tissues, we want to make sure that the genes expressed only in one or the other tissue are excluded when scaling factors are estimated (read below for more info). 
 
 We will use 'vst' normalization (varianceStabilizingTransformation), which is part of the DESeq2 package.
 
@@ -478,8 +484,9 @@ The replicates cluster together within their respective condition. Great!
 ### 6. Principal component analysis 
 
 We can proceed to principal component analysis (PCA).
+To explain properly the concept of PCA analysis I may need to creat a whole new tutorial. :)
+But https://www.youtube.com/watch?v=HMOI_lkzW08 is a really good video regarding that!
 plotPCA function (again part of the DESeq2 package) calculates and plots PCA for the first two principal components. We use the normalized counts from the vsd variable, similarly to the analyses above. Since we want replicates from the same condition to be colored identically on the PCA plot, we have to specify that the column "condition" from the metadata has to be taken as a information for replicates grouping. 
-
 
 
 
@@ -531,7 +538,7 @@ We know from other studies that the TAC condition activates neonatal gene progra
 
 Considering the current analyses we can conclude the following:
 
-**1. There are no obvious batch effects and the data seems to be of a high quality**
+**1. There are no obvious unwanted technical variability in our samples and the data seems to be of a high quality**
 
 **2. Having performed these analyses we can proceed to identifying differentially expressed genes**
 
