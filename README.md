@@ -3,9 +3,10 @@
 
 **For the first three steps of the tutorial (especially if you a newbie to R and RNA-seq data analyses), I recommend that you follow the YouTube Video in the link below, which was specifically created to demonstrate the installation of packages, setting working directory and downloading the input data set for this tutorial.**
 
-[!["Getting started with RNA-seq"](http://img.youtube.com/vi/kR_iHVau8GI/0.jpg)]((https://www.youtube.com/watch?v=kR_iHVau8GI&t=1s))
+[![Getting started with RNA-seq](http://img.youtube.com/vi/kR_iHVau8GI/0.jpg)]((https://www.youtube.com/watch?v=kR_iHVau8GI "Getting started with RNA-seq" ))
 
 [![Audi R8](http://img.youtube.com/vi/KOxbO0EI4MA/0.jpg)](https://www.youtube.com/watch?v=KOxbO0EI4MA "Audi R8")
+
 You can find a thorough description of the input data set in step 3 in this tutorial.
 
 Most of the code used here is available online:
