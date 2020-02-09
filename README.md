@@ -538,7 +538,7 @@ We know from other studies that the TAC condition activates neonatal gene progra
 
 Considering the current analyses we can conclude the following:
 
-**1. There are no obvious unwanted technical variability in our samples and the data seems to be of a high quality**
+**1. There is no obvious technical variability in our samples (e.g. the data seems to be of a high quality)**
 
 **2. Having performed these analyses we can proceed to identifying differentially expressed genes**
 
