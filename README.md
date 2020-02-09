@@ -484,7 +484,7 @@ The replicates cluster together within their respective condition. Great!
 ### 6. Principal component analysis 
 
 We can proceed to principal component analysis (PCA).
-To explain properly the concept of PCA analysis I may need to creat a whole new tutorial. `r emo::ji("smile")`
+To explain properly the concept of PCA analysis I may need to creat a whole new tutorial. :-)
 
 But I recommend you check  out this video https://www.youtube.com/watch?v=HMOI_lkzW08 to get a general overview of PCA principle!
 
