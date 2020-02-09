@@ -5,8 +5,6 @@
 
 [![Getting started with RNA-seq](http://img.youtube.com/vi/kR_iHVau8GI/0.jpg)](https://www.youtube.com/watch?v=https://www.youtube.com/watch?v=kR_iHVau8GI&feature=youtu.be)
 
-https://www.youtube.com/watch?v=kR_iHVau8GI&feature=youtu.be
-
 You can find a thorough description of the input data set in step 3 in this tutorial.
 
 Most of the code used here is available online:
