@@ -484,8 +484,10 @@ The replicates cluster together within their respective condition. Great!
 ### 6. Principal component analysis 
 
 We can proceed to principal component analysis (PCA).
-To explain properly the concept of PCA analysis I may need to creat a whole new tutorial. :)
-But https://www.youtube.com/watch?v=HMOI_lkzW08 is a really good video regarding that!
+To explain properly the concept of PCA analysis I may need to creat a whole new tutorial. #> :D
+
+But I recommend you check  out this video https://www.youtube.com/watch?v=HMOI_lkzW08 to get a general overview of PCA principle!
+
 plotPCA function (again part of the DESeq2 package) calculates and plots PCA for the first two principal components. We use the normalized counts from the vsd variable, similarly to the analyses above. Since we want replicates from the same condition to be colored identically on the PCA plot, we have to specify that the column "condition" from the metadata has to be taken as a information for replicates grouping. 
 
 
